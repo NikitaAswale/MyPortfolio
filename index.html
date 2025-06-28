@@ -9,19 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Animated cursor follower -->
-    <div class="cursor-follower"></div>
-    
-    <!-- Scroll progress indicator -->
-    <div class="scroll-progress"></div>
-    
-    <!-- Noise texture overlay -->
     <div class="noise"></div>
-    
-    <!-- Particle system -->
     <div class="particles" id="particles-js"></div>
     
-    <!-- Enhanced navigation with glass morphism -->
     <nav>
         <div class="nav-container">
             <div class="logo">
@@ -54,25 +44,19 @@
                 </div>
                 <p class="hero-description">A passionate Android developer transitioning from IT support, with a proven track record of shipping production-ready apps to PlayStore and contributing to open-source projects. Combining professional IT experience with self-driven Android development expertise.</p>
                 <div class="social-links">
-                    <a href="https://github.com/NikitaAswale" target="_blank" class="social-link" data-tooltip="GitHub">
+                    <a href="https://github.com/nikitaaswale" target="_blank" class="social-link">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/nikita-aswale-049074170/" target="_blank" class="social-link" data-tooltip="LinkedIn">
+                    <a href="https://www.linkedin.com/in/nikita-aswale-049074170/" target="_blank" class="social-link">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="mailto:nikitaaswale@gmail.com" class="social-link" data-tooltip="Email">
+                    <a href="mailto:nikitaaswale@gmail.com" class="social-link">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
                 <div class="cta-group">
-                    <button class="primary-btn" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
-                        <span>View Projects</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                    <button class="secondary-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
-                        <span>Contact Me</span>
-                        <i class="fas fa-envelope"></i>
-                    </button>
+                    <button class="primary-btn">View Projects</button>
+                    <button class="secondary-btn">Contact Me</button>
                 </div>
             </div>
             <div class="hero-visual">
@@ -137,13 +121,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Animated background elements -->
-        <div class="bg-elements">
-            <div class="bg-element bg-element-1"></div>
-            <div class="bg-element bg-element-2"></div>
-            <div class="bg-element bg-element-3"></div>
-        </div>
     </section>
 
     <section class="journey">
@@ -181,6 +158,88 @@
                         <span>Leveraging IT support experience in app development</span>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="github-showcase">
+        <div class="github-container">
+            <div class="section-header">
+                <span class="section-subtitle">Open Source</span>
+                <h2>GitHub Highlights</h2>
+            </div>
+            <div class="github-stats">
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Active Developer</h3>
+                        <p>Consistent contributions with focus on Android development and clean code practices</p>
+                        <a href="https://github.com/nikitaaswale" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Android Projects</h3>
+                        <p>Multiple Android repositories showcasing modern development practices with Kotlin & Jetpack Compose</p>
+                        <div class="tech-highlights">
+                            <span class="tech-highlight">Kotlin</span>
+                            <span class="tech-highlight">MVVM Architecture</span>
+                            <span class="tech-highlight">Clean Code</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Open Source Contributions</h3>
+                        <p>Contributing to open-source Android projects and sharing knowledge with the developer community</p>
+                        <div class="contribution-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Repositories</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Commits</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Quality Code</h3>
+                        <p>Focus on writing maintainable, well-documented code following Android best practices</p>
+                        <div class="code-quality">
+                            <div class="quality-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Clean Architecture</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Unit Testing</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Code Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
