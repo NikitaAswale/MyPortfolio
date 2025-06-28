@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita R. Aswale | Android Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="particles" id="particles-js"></div>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span class="highlight">DEV</span>FOLIO
+            </div>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="switch">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="title-container">
+                    <span class="subtitle">Android Developer</span>
+                    <h1>Hi, I'm 
+                        <span class="gradient-text">Nikita Aswale</span>
+                    </h1>
+                </div>
+                <p class="hero-description">A passionate Android developer transitioning from IT support, with a proven track record of shipping production-ready apps to PlayStore and contributing to open-source projects. Combining professional IT experience with self-driven Android development expertise.</p>
+                <div class="social-links">
+                    <a href="https://github.com/NikitaAswale" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nikita-aswale-049074170/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:nikitaaswale@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="cta-group">
+                    <button class="primary-btn">View Projects</button>
+                    <button class="secondary-btn">Contact Me</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="visual-composition">
+                        <div class="phone-mockup">
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <div class="app-preview">
+                                        <div class="app-header"></div>
+                                        <div class="app-content">
+                                            <div class="content-block"></div>
+                                            <div class="content-block"></div>
+                                            <div class="content-block"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phone-notch"></div>
+                            </div>
+                        </div>
+                        <div class="floating-circles">
+                            <div class="circle circle-1"></div>
+                            <div class="circle circle-2"></div>
+                            <div class="circle circle-3"></div>
+                        </div>
+                        <div class="code-block">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                    <div class="floating-card android-card">
+                        <i class="fab fa-android"></i>
+                        <span>Android Expert</span>
+                    </div>
+                    <div class="floating-card compose-card">
+                        <svg class="compose-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12.5,7.5C15.5,7.5 18,9.57 18,12C18,14.43 15.5,16.5 12.5,16.5C9.5,16.5 7,14.43 7,12C7,9.57 9.5,7.5 12.5,7.5M6,12C6,15.1 8.9,17.5 12.5,17.5C16.1,17.5 19,15.1 19,12C19,8.9 16.1,6.5 12.5,6.5C8.9,6.5 6,8.9 6,12M12.5,11C13.3,11 14,11.7 14,12.5C14,13.3 13.3,14 12.5,14C11.7,14 11,13.3 11,12.5C11,11.7 11.7,11 12.5,11Z"/>
+                            <path fill="currentColor" d="M12,2C17.5,2 22,6.5 22,12C22,17.5 17.5,22 12,22C6.5,22 2,17.5 2,12C2,6.5 6.5,2 12,2M12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4Z"/>
+                        </svg>
+                        <span>Jetpack Compose</span>
+                    </div>
+                    <div class="floating-card kotlin-card">
+                        <svg class="kotlin-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M2,2V22H22V2H2M4,4H20L12,12L4,4M4,20V6.83L12,14.83L20,6.83V20H4Z"/>
+                            <path fill="currentColor" d="M4,4V20H20V4H4M11,11.55L4,4H20L13,11.55V11.55L20,20H4L11,11.55Z"/>
+                        </svg>
+                        <span>Kotlin First</span>
+                    </div>
+                    <div class="floating-card material-card">
+                        <i class="fas fa-palette"></i>
+                        <span>Material 3</span>
+                    </div>
+                    <div class="floating-card arch-card">
+                        <i class="fas fa-layer-group"></i>
+                        <span>Clean Architecture</span>
+                    </div>
+                    <div class="floating-card apps-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>20+ Apps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey">
+        <div class="journey-container">
+            <div class="journey-card">
+                <div class="journey-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>My Development Journey</h3>
+                <div class="education-info">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <h4>Bachelor in Computer Science</h4>
+                        <p>G.H Raisoni College of Engineering and Management, Pune</p>
+                    </div>
+                </div>
+                <p>While working in IT support at Capgemini, I've been actively pursuing my passion for Android development:</p>
+                <ul class="journey-highlights">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Published apps on Google Play Store with real users</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Contributing to open-source Android projects</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Building projects with modern Android stack</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Leveraging IT support experience in app development</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-subtitle">Featured Work</span>
+            <h2>Latest Projects</h2>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://zeenews.india.com/iifl/wp-content/uploads/2022/12/A-Basic-Guide-To-Stock-Trading.jpg" 
+                         alt="Trader Meets" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://play.google.com/store/apps/details?id=com.innovatelabs.tradermeets" 
+                           target="_blank" class="view-project">View on PlayStore</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Trader Meets</h3>
+                        <p>A social platform for traders to connect, share trades, and learn from each other. Features include trade journaling, social interactions, and community engagement.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-tech="Kotlin">Kotlin</span>
+                            <span class="tech-tag" data-tech="Firebase">Firebase</span>
+                            <span class="tech-tag" data-tech="MVVM">MVVM</span>
+                            <span class="tech-tag" data-tech="Material Design">Material Design</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://play.google.com/store/apps/details?id=com.innovatelabs.tradermeets" target="_blank" class="project-link">
+                            <i class="fab fa-google-play"></i> View on PlayStore
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.ctfassets.net/pdf29us7flmy/5tS9CF6ZCXPDW0ShYqSgAB/b18b6985788f7cb2b1c7f7e0354f21a6/hotel-management-US.png" 
+                         alt="DishDashboard" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://github.com/SomeshSampat2/DishDashboard" 
+                           target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>DishDashboard</h3>
+                        <p>A comprehensive hotel management system built with modern Android development practices. Features complete hotel management functionality with an intuitive UI.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-tech="Jetpack Compose">Jetpack Compose</span>
+                            <span class="tech-tag" data-tech="Kotlin">Kotlin</span>
+                            <span class="tech-tag" data-tech="Clean Architecture">Clean Architecture</span>
+                            <span class="tech-tag" data-tech="Material 3">Material 3</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SomeshSampat2/DishDashboard" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <div class="skills-content">
+                <span class="section-subtitle">Expertise</span>
+                <h2>Technical Skills</h2>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Android Development</h3>
+                            <p>Native Android, SDK, UI/UX</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon kotlin-icon">
+                            <i class="fab fa-kotlin"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Kotlin</h3>
+                            <p>Coroutines, Flow, KMM</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon compose-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10s10-4.48 10-10S17.52,2 12,2z"/>
+                            </svg>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Jetpack Compose</h3>
+                            <p>Modern UI Development</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon arch-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Architecture</h3>
+                            <p>MVVM, Clean Architecture, DI</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Data Management</h3>
+                            <p>Room, SQLite, DataStore</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Backend Integration</h3>
+                            <p>REST, Firebase, GraphQL</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Testing</h3>
+                            <p>Unit, UI, Integration Tests</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Version Control</h3>
+                            <p>Git, GitHub, CI/CD</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon dsa-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>DS & Algorithms</h3>
+                            <p>Problem Solving, LeetCode, FAANG</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-content">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2>Let's Work Together</h2>
+                <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
