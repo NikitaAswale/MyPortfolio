@@ -9,9 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Animated cursor follower -->
+    <div class="cursor-follower"></div>
+    
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress"></div>
+    
+    <!-- Noise texture overlay -->
     <div class="noise"></div>
+    
+    <!-- Particle system -->
     <div class="particles" id="particles-js"></div>
     
+    <!-- Enhanced navigation with glass morphism -->
     <nav>
         <div class="nav-container">
             <div class="logo">
@@ -44,19 +54,25 @@
                 </div>
                 <p class="hero-description">A passionate Android developer transitioning from IT support, with a proven track record of shipping production-ready apps to PlayStore and contributing to open-source projects. Combining professional IT experience with self-driven Android development expertise.</p>
                 <div class="social-links">
-                    <a href="https://github.com/NikitaAswale" target="_blank" class="social-link">
+                    <a href="https://github.com/NikitaAswale" target="_blank" class="social-link" data-tooltip="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/nikita-aswale-049074170/" target="_blank" class="social-link">
+                    <a href="https://www.linkedin.com/in/nikita-aswale-049074170/" target="_blank" class="social-link" data-tooltip="LinkedIn">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="mailto:nikitaaswale@gmail.com" class="social-link">
+                    <a href="mailto:nikitaaswale@gmail.com" class="social-link" data-tooltip="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
                 <div class="cta-group">
-                    <button class="primary-btn">View Projects</button>
-                    <button class="secondary-btn">Contact Me</button>
+                    <button class="primary-btn" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="secondary-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        <span>Contact Me</span>
+                        <i class="fas fa-envelope"></i>
+                    </button>
                 </div>
             </div>
             <div class="hero-visual">
@@ -120,6 +136,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <!-- Animated background elements -->
+        <div class="bg-elements">
+            <div class="bg-element bg-element-1"></div>
+            <div class="bg-element bg-element-2"></div>
+            <div class="bg-element bg-element-3"></div>
         </div>
     </section>
 
